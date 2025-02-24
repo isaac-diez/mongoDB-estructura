@@ -16,6 +16,8 @@ Our system will indicate which employee is responsible for each sold order. Defi
 
 Take the following graphic interface as reference, from the point of view of an Optician's customer. How would you design the database that would provide the information?
 
+![Exercise 1](https://github.com/isaac-diez/mongoDB-estructura/blob/master/Exercise1/GUI_exer1.jpg)
+
  
 
 💻**Stack used:**

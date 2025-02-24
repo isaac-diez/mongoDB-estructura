@@ -16,6 +16,8 @@ Our system will indicate which employee is responsible for each sold order. Defi
 
 And what about if the whole interface revolved around the glasses?
 
+![Exercise 2](https://github.com/isaac-diez/mongoDB-estructura/blob/master/Exercise2/GUI_exer2.jpg)
+
 
 💻**Stack used:**
 Project created with:
