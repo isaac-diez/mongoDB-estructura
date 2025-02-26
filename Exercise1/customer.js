@@ -3,22 +3,44 @@ db.createCollection("customer", {
     $jsonSchema: {
       "bsonType": "object",
       "title": "customer",
-      "required": ["name", "address", "date", "order"],
+      "required": ["name", "address", "phone", "email", "dateOfRegistration", "prescription", "order_id"],
       "properties": {
         "name": {
-          "bsonType": "string"
-        },
-        "referral": {
           "bsonType": "string"
         },
         "address": {
           "bsonType": "string"
         },
-        "date": {
-          "bsonType": "objectId"
+        "referral": {
+          "bsonType": "string"
         },
-        "order": {
-          "bsonType": "objectId"
+        "phone": {
+          "bsonType": "string"
+        },
+        "email": {
+          "bsonType": "string"
+        },
+        "dateOfRegistration": {
+          "bsonType": "date"
+        },
+        "prescription": {
+          "bsonType": "object",
+          "title": "object",
+          "required": ["left_eye", "right_eye"],
+          "properties": {
+            "left_eye": {
+              "bsonType": "decimal"
+            },
+            "right_eye": {
+              "bsonType": "decimal"
+            }
+          }  
+        },
+        "order_id": {
+          "bsonType": "array",
+          "items": {
+            "bsonType": "objectId"
+          }
         }
       }  
     } 

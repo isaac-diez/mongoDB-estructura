@@ -3,25 +3,10 @@ db.createCollection("glasses", {
     $jsonSchema: {
       "bsonType": "object",
       "title": "glasses",
-      "required": ["brand", "prescription", "frame_type", "frame_color", "glass_color", "price", "date"],
+      "required": ["brand", "frame_type", "frame_color", "glass_color", "price", "date", "supplier_id"],
       "properties": {
         "brand": {
           "bsonType": "string"
-        },
-        "prescription": {
-          "bsonType": "array",
-          "items": {
-            "title": "object",
-            "required": ["left_eye", "right_eye"],
-            "properties": {
-              "left_eye": {
-                "bsonType": "decimal"
-              },
-              "right_eye": {
-                "bsonType": "decimal"
-              }
-            }
-          }  
         },
         "frame_type": {
           "enum": ['metallic','horn','floating']
@@ -46,6 +31,9 @@ db.createCollection("glasses", {
           "bsonType": "decimal"
         },
         "date": {
+          "bsonType": "objectId"
+        },
+        "supplier_id": {
           "bsonType": "objectId"
         }
       }  
