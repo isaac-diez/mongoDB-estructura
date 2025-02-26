@@ -142,23 +142,6 @@
 					"pattern": false,
 					"estimatedSize": "",
 					"any": ""
-				},
-				{
-					"id": "551de090-6a03-448a-a2d2-ba14177fb699",
-					"name": "order_id",
-					"datatype": "objectId",
-					"param": "",
-					"pk": false,
-					"nn": true,
-					"list": true,
-					"fk": false,
-					"comment": "",
-					"data": "",
-					"enum": "",
-					"validation": "",
-					"pattern": false,
-					"estimatedSize": "",
-					"any": ""
 				}
 			],
 			"relations": [],
@@ -650,6 +633,23 @@
 					"pattern": false,
 					"estimatedSize": "",
 					"any": ""
+				},
+				{
+					"id": "4f3a8326-b6bd-4267-b078-ebb791ad5152",
+					"name": "order_id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"list": true,
+					"fk": false,
+					"comment": "",
+					"data": "",
+					"enum": "",
+					"validation": "",
+					"pattern": false,
+					"estimatedSize": "",
+					"any": ""
 				}
 			],
 			"relations": [],
@@ -1062,8 +1062,8 @@
 		"def_collation": "",
 		"def_others": "",
 		"connectionVersion": "",
-		"lastSaved": 1740571528334,
-		"modelScriptsDir": "/home/isaac/MyPROJECTS/MongoDB/IT-Academy/mongoDB-estructura/Exercise1"
+		"lastSaved": 1740574111974,
+		"modelScriptsDir": "/home/isaac/MyPROJECTS/MongoDB/IT-Academy/mongoDB-estructura/Exercise2"
 	},
 	"otherObjects": {},
 	"diagrams": {
@@ -1083,7 +1083,7 @@
 					"referencedItemId": "bdd1b6ab-e15d-4be5-84a7-d0b61ccb115f",
 					"x": 292,
 					"y": 267,
-					"gHeight": 189,
+					"gHeight": 171,
 					"gWidth": 246,
 					"color": "#ffffff",
 					"background": "#03a9f4",
@@ -1122,8 +1122,8 @@
 					"referencedItemId": "87d433e0-222e-454d-bd7e-eba16af4bac4",
 					"x": 299,
 					"y": 490,
-					"gHeight": 183,
-					"gWidth": 235,
+					"gHeight": 201,
+					"gWidth": 233,
 					"color": "#ffffff",
 					"background": "#03a9f4",
 					"resized": true,

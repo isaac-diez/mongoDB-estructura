@@ -9,7 +9,32 @@ db.createCollection("supplier", {
           "bsonType": "string"
         },
         "address": {
-          "bsonType": "string"
+          "bsonType": "object",
+          "title": "object",
+          "required": ["street", "streetNo", "city", "zipcode", "country"],
+          "properties": {
+            "street": {
+              "bsonType": "string"
+            },
+            "streetNo": {
+              "bsonType": "string"
+            },
+            "floor": {
+              "bsonType": "int"
+            },
+            "apartment": {
+              "bsonType": "string"
+            },
+            "city": {
+              "bsonType": "string"
+            },
+            "zipcode": {
+              "bsonType": "string"
+            },
+            "country": {
+              "bsonType": "string"
+            }
+          }  
         },
         "date": {
           "bsonType": "objectId"
